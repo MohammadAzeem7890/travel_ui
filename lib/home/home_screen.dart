@@ -8,7 +8,6 @@ import 'package:travel_app_ui/home/home_widgets/destinations_banner.dart';
 import 'package:travel_app_ui/home/home_widgets/home_app_bar.dart';
 import 'package:travel_app_ui/home/home_widgets/home_banner.dart';
 
-
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 

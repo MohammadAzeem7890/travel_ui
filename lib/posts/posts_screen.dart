@@ -23,7 +23,6 @@ class PostsScreen extends StatelessWidget {
             children: [
               AddPostsList(
                   screenWidth: screenWidth, screenHeight: screenHeight),
-              AppStandardGap(screenHeight: screenHeight),
               PostList(screenHeight: screenHeight, screenWidth: screenWidth),
               AppStandardGap(screenHeight: screenHeight),
             ],

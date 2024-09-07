@@ -14,7 +14,7 @@ class PostList extends StatelessWidget {
       physics: const NeverScrollableScrollPhysics(),
       itemBuilder: (context, index) {
         return Padding(
-          padding: const EdgeInsets.only(top: 15.0),
+          padding: const EdgeInsets.only(top: 15.0, left: 10, right: 10),
           child: PostItem(screenWidth: screenWidth, screenHeight: screenHeight),
         );
       },

@@ -19,10 +19,8 @@ class PostItem extends StatelessWidget {
       width: screenWidth,
       child: PrimaryInkWell(
         onTap: () {
-          //todo
+          // todo
         },
-        left: 15,
-        right: 15,
         child: Column(
           children: [
             Row(
@@ -83,7 +81,10 @@ class PostItem extends StatelessWidget {
                       onTap: () {
                         // todo
                       },
-                      left: 0,
+                      left: 2,
+                      right: 2,
+                      top: 4,
+                      bottom: 4,
                       child: const Icon(
                         Icons.more_vert,
                         color: Colors.black54,

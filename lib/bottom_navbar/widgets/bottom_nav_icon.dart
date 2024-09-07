@@ -9,20 +9,17 @@ class BottomNavIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 4),
-      child: Container(
-        decoration: BoxDecoration(
-            color: Colors.transparent,
-            borderRadius: BorderRadius.circular(50),
-            border: Border.all(color: color)),
-        child: SizedBox(
-          height: size,
-          width: size,
-          child: Icon(
-            iconData,
-            size: 20,
-          ),
+    return Container(
+      decoration: BoxDecoration(
+          color: Colors.transparent,
+          borderRadius: BorderRadius.circular(50),
+          border: Border.all(color: color)),
+      child: SizedBox(
+        height: size,
+        width: size,
+        child: Icon(
+          iconData,
+          size: 20,
         ),
       ),
     );

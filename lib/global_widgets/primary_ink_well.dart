@@ -25,8 +25,8 @@ class PrimaryInkWell extends StatelessWidget {
         splashColor: Colors.red[100],
         onTap: onTap,
         child: Padding(
-          padding:
-              EdgeInsets.only(left: left, right: right, top: top, bottom: bottom),
+          padding: EdgeInsets.only(
+              left: left, right: right, top: top, bottom: bottom),
           child: child,
         ),
       ),
