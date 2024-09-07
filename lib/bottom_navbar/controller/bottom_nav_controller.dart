@@ -7,7 +7,6 @@ import '../widgets/add_post_dialogue.dart';
 import '../widgets/bottom_nav_icon.dart';
 
 class BottomNavController {
-
   int selectedIndex = 0;
 
   Color getItemColor(index) {
@@ -18,8 +17,7 @@ class BottomNavController {
     selectedIndex = index;
   }
 
-
-  showDialogue(context){
+  showDialogue(context) {
     showDialog(
         barrierDismissible: true,
         barrierColor: Colors.transparent,
@@ -28,7 +26,6 @@ class BottomNavController {
           return const AddPostDialogue();
         });
   }
-
 
   List<Widget> screens = const [
     HomeScreen(),
@@ -59,7 +56,7 @@ class BottomNavController {
           visible: false, // Hide the icon in the center position
           child: Icon(Icons.phone),
         ),
-        label: 'Add Post',
+        label: '',
       ),
       BottomNavigationBarItem(
         icon: BottomNavIcon(
