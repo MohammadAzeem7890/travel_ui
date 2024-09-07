@@ -1,24 +1,25 @@
 import 'package:flutter/material.dart';
 
 class ElevatedContainer extends StatelessWidget {
-  final double? height, width;
+  final double height, width;
   final BoxShape shape;
-  final BoxBorder? border;
-  final Color? color;
-  final Widget? child;
+  final BoxBorder border;
+  final Color color;
+  final Widget child;
   final double blurRadius;
   final BorderRadius? borderRadius;
 
   const ElevatedContainer(
       {super.key,
       this.shape = BoxShape.rectangle,
-      this.color,
+      this.color = Colors.white,
       this.blurRadius = 20,
-      this.child,
-      this.width,
+      required this.child,
+      required this.width,
       this.borderRadius,
-      this.height,
-      this.border});
+      required this.height,
+      required this.border
+      });
 
   @override
   Widget build(BuildContext context) {

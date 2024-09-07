@@ -23,7 +23,7 @@ class CategoryItem extends StatelessWidget {
       child: Container(
         width: screenWidth * 0.21,
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: index == 1 ? Colors.pinkAccent : Colors.white,
           boxShadow: [
             BoxShadow(
               blurRadius: 80,
@@ -46,6 +46,7 @@ class CategoryItem extends StatelessWidget {
               Flexible(
                 child: Icon(
                   Icons.transfer_within_a_station,
+                  color: index == 1 ? Colors.white : Colors.black,
                   size: screenHeight * 0.045,
                 ),
               ),
@@ -55,7 +56,9 @@ class CategoryItem extends StatelessWidget {
               Flexible(
                 child: PrimaryText(
                   "Holidays",
+                  color: index == 1 ? Colors.white : Colors.black,
                   fontSize: screenWidth * 0.031,
+                  fontWeight: FontWeight.w600,
                 ),
               )
             ],

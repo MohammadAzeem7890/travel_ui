@@ -13,7 +13,7 @@ class HomeBanner extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final double bannerHeight = screenHeight * 0.22;
+    final double bannerHeight = screenHeight * 0.23;
     return Stack(
       clipBehavior: Clip.none,
       children: [
@@ -27,7 +27,7 @@ class HomeBanner extends StatelessWidget {
           top: bannerHeight * 0.15,
           child: Padding(
             padding: const EdgeInsets.only(left: 20.0),
-            child: ElevatedContainer(
+            child: SizedBox(
               width: double.maxFinite,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,

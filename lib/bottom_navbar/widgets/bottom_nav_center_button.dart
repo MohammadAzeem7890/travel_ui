@@ -14,7 +14,7 @@ class BottomNavCenterButton extends StatelessWidget {
       height: 53,
       width: 53,
       border: Border.all(color: Colors.white, width: 2),
-      color: Colors.red,
+      color: Colors.pinkAccent,
       shape: BoxShape.circle,
       child: PrimaryInkWell(
         onTap: onTap,

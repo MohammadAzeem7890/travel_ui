@@ -9,7 +9,7 @@ class AddPostsList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: screenHeight * 0.18,
+      height: screenHeight * 0.19,
       child: ListView.builder(
         shrinkWrap: true,
         scrollDirection: Axis.horizontal,

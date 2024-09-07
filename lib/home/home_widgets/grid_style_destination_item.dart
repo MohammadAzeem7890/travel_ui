@@ -10,7 +10,7 @@ class GridStyleDestinationItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final double bannerHeight = screenHeight * 0.22;
+    final double bannerHeight = screenHeight * 0.23;
     return Stack(
       children: [
         DarkBackgroundStackImage(
