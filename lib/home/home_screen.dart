@@ -8,14 +8,9 @@ import 'package:travel_app_ui/home/home_widgets/destinations_banner.dart';
 import 'package:travel_app_ui/home/home_widgets/home_app_bar.dart';
 import 'package:travel_app_ui/home/home_widgets/home_banner.dart';
 
-class HomeScreen extends StatefulWidget {
+class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
